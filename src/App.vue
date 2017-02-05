@@ -1,10 +1,14 @@
 <template>
-    <div>
-    </div>
+   <div>
+     <devicelist>
+     </devicelist>
+   </div>
 </template>
 <script>
-    export default {
+  import devicelist from './page/devicelist/Devicelist.vue'
+  export default {
         components:{
+          devicelist
         },
         data () {
             return {
