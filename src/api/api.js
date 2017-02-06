@@ -46,5 +46,12 @@ export  default {
         }).catch(function (error) {
             errorblock(error);
         });
-    }
+    },
+    getdevicelist:function (){
+
+      console.log('dawdawd');
+
+
+
+   }
 }

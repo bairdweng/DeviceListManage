@@ -1,16 +1,11 @@
 import Vue from 'vue'
-import 'muse-ui/dist/muse-ui.css'
-import 'material-design-icons-iconfont/dist/material-design-icons.css'
-import './css/custombase.css'
-import VueResource from 'vue-resource'
 import './api/api'
 import router from './router/routes'
 import store from './store/store'//使用vuex。
 import './tools/tools'
-import Mint from 'mint-ui';
 import 'mint-ui/lib/style.min.css'
-Vue.use(Mint);
-Vue.use(VueResource)
+import { Loadmore } from 'mint-ui';
+Vue.component(Loadmore.name, Loadmore)
 const app = new Vue({
   router,
   store
