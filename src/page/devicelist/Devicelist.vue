@@ -56,7 +56,7 @@
 </script>
 <style>
   .devicelist{
-    -webkit-overflow-scrolling: touch;
+    background-color: white;
   }
   .devicelist .cell-title{
     margin-top: 5px;
@@ -71,7 +71,7 @@
     margin-bottom: 5px;
     font-size: 10px;
   }
-  .cell-line{
+  .devicelist .cell-line{
     width: 200%;
     margin-bottom: 0px;
     background-color: #eeeeee;
